@@ -1,0 +1,1 @@
+O projeto pode ser importado para o Eclipse usando a opção "Import" ou abrir as duas classes usando editor de texto e copiar e colar o código em classes criadas no eclipse com o mesmo nome.
