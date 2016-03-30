@@ -76,7 +76,7 @@ public class CalculaTemperatura {
             System.out.println(maiorNegativo);
             System.out.println(menorPositivo);
 
-            if((menorPositivo + maiorNegativo ) == 0){
+            if((menorPositivo + maiorNegativo ) == 0){ //verifica se o valor positivo e o valor negativo são opostos
                 return menorPositivo;
             }else{
 
