@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aplicativo Instagram</title>
+	<script src="http://code.jquery.com/jquery-2.0.3.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+	var endereco = 'https://api.instagram.com/v1/users/self/?access_token=30594245.229f262.9f1ff908423f46a08338945a47916cf8';
+			$.ajax({
+					url: endereco,
+					complete: function(res){
+							var meuJSON = JSON.parse(res.responseText);
+							console.log(meuJSON);
+					}
+			});
+			print(data["username"]);
+			print(data["follows"]);
+			print(data["followed_by"]);
+}
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

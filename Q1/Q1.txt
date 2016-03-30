@@ -1,0 +1,1 @@
+1)Será FALSE. A expressão usa If ternário e qualquer valor que entrar o valor retornado será false. Se entrar TRUE, C será o  contrário de TRUE (FALSE)  e se entrar FALSE ele será mantido como FALSE.

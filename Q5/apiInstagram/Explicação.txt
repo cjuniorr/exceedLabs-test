@@ -1,0 +1,3 @@
+Foi usado o jQuery para eu poder maniuplar a chamada do Ajax.
+A página HTML é carregada e logo depois o usuário é redirecionado para um link do instagram com o CLIENT ID e TOKEN do meu aplicavo. Após o log in o usuário é redirecionado para minha página do GitHub, mas há erros no envio dos dados recebidos via JSON.
+Tive dificuldade em consumir os dados do usuário enviados pela url do json que o Instagram envia.

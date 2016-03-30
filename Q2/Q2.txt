@@ -1,0 +1,1 @@
+2) Singleton. Ele garante a existência de apenas uma instância no objeto e que ele estará disponível para toda a aplicação assim, mantendo um ponto global de acesso ao seu objeto. Ele dá acesso controlado a uma única instância.

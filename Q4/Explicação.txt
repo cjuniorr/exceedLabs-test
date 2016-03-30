@@ -1,0 +1,3 @@
+Foi usado o NodeJS por nele há mais facilidade de contrle usando os módulos Request para se conectar via htpps e o Cheerio para analisar a página HTML.
+
+Quando iniciado via terminal com o comando "node crawler.js", o aplicativo se conectará no link do site do Submarino e analisará o conteúdo da página. Não obtive sucesso procurando exatamente em encontrar o produto mais vendido e o seu preço, pois toda vez que eu analisava pela "class" ou pelo conteúdo HTML era retornado todo texto que usava aquela class ou aquela tag html.
