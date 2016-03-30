@@ -1,1 +1,3 @@
-O projeto pode ser importado para o Eclipse usando a op��o "Import" ou abrir as duas classes usando editor de texto e copiar e colar o c�digo em classes criadas no eclipse com o mesmo nome.
+O projeto pode ser importado para o Eclipse usando a opção "Import" ou abrir as duas classes usando editor de texto e copiar e colar o código em classes criadas no eclipse com o mesmo nome.
+
+É enviado para o método closestToZero o vetor contendo as temperaturas. No método há o tratamento se o vetor é vazio. Se não, há a divisão do vetor criando mais dois novos vetores, um vetor somente com números positivos e um outro somente com números negativos. Neles há a varredura na procura de o menor número positivo (no vetPos) e o maior número negativo (vetNeg). No final é comparado se os valores de cada vetor são opostos ou não e depois é retornado o valor mais próximo de zero.
