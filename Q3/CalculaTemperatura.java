@@ -3,7 +3,6 @@ package iFactory;
 import java.awt.List;
 
 public class CalculaTemperatura {
-
     public double closestToZero(double[] b) {
         double vlrPos = 0;
         double vlrNeg = 0;
@@ -57,7 +56,7 @@ public class CalculaTemperatura {
                 }
             }
 
-            double menorPositivo = vetPos[0];
+            double menorPositivo = vetPos[0]; //
 
             for (int i = 0; i <= vetPos.length - 1; i++) {
                 if (vetPos[i] < menorPositivo) {
@@ -79,10 +78,8 @@ public class CalculaTemperatura {
             if((menorPositivo + maiorNegativo ) == 0){ //verifica se o valor positivo e o valor negativo são opostos
                 return menorPositivo;
             }else{
-
                 valor = Math.min(menorPositivo,maiorNegativo );
             }
-
             return valor;
         }
     }
